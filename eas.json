@@ -13,14 +13,16 @@
       "ios": {
         "image": "latest"
       },
-      "channel": "development"
+      "channel": "development",
+      "env": {
+        "APP_VARIANT": "development"
+      }
     },
-    "development-simulator": {
+    "ios-simulator": {
       "extends": "development",
       "ios": {
         "simulator": true
-      },
-      "channel": "development-simulator"
+      }
     },
     "preview": {
       "distribution": "internal",
@@ -30,7 +32,10 @@
       "ios": {
         "image": "latest"
       },
-      "channel": "preview"
+      "channel": "preview",
+      "env": {
+        "APP_VARIANT": "preview"
+      }
     },
     "production": {
       "channel": "production",
