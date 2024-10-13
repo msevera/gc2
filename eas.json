@@ -37,6 +37,16 @@
         "APP_VARIANT": "preview"
       }
     },
+    "staging": {
+      "channel": "staging",
+      "autoIncrement": true,
+      "android": {
+        "image": "latest"
+      },
+      "ios": {
+        "image": "latest"
+      }
+    },
     "production": {
       "channel": "production",
       "autoIncrement": true,
